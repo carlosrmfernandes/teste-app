@@ -3,9 +3,9 @@ import './FormSeller.css'
 function FormLogin(){
 
    async function cadastrar(numero){
-     let api = await fetch("https://viacep.com.br/ws/01001000/json/")
+     let api = await fetch("https://teste-api-l9wn.onrender.com/")
      let response =  await api.json()
-     console.log(response)
+     alert(response.status)
         
     }
 
